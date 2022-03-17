@@ -1,8 +1,5 @@
 html {
-  box-sizing: border-box;
-  background-color: #f2f1ed;
-  font-family: sans-serif;
-  line-height: 1.5;
+box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -29,18 +26,19 @@ ul {
   background-color: #eee8d5;
 }
 
-#contents #favs #facts #types {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
 .wrapper > .dfn {
   background-color: #b58900;
 }
+
 .dfn > p + strong {
   color: #fff;
 }
 
-a  {
+a {
   background-color: #719e07;
 }
 
